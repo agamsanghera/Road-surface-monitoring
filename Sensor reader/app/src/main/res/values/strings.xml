@@ -1,0 +1,73 @@
+<resources>
+    <!-- Localization files
+         This file contains all the strings in this app in English.
+         Please check res/values-in/strings.xml for Indonesian strings, and make sure that both
+         Indonesian and English counterparts of each string exist.
+    -->
+
+    <!-- App name and tab titles -->
+    <string name="app_name">Road Monitoring</string>
+    <string name="tab_text_1">Record</string>
+    <string name="tab_text_2">Map</string>
+    <string name="tab_text_3">Upload</string>
+    <string name="tab_text_4">Camera</string>
+
+    <!-- Dialogue and other buttons -->
+    <string name="dialogue_cancel">Cancel</string>
+    <string name="dialogue_settings">Open Settings</string>
+    <string name="button_start">START</string>
+    <string name="button_stop">STOP</string>
+
+    <!-- Title for dialogue windows -->
+    <string name="warning_title">Warning</string> <!-- Warning -->
+
+    <!-- ### FragmentPage1.java ### -->
+
+    <!-- First location warning when booting up the app -->
+    <string name="warning_first_boot">When the start button is pressed and a flag icon appears in the notification panel, this application will record your location data even though the application is not used. The data is used to identify the locations of road defects accurately.        \nPress the stop button if you wish to end the recording.</string>
+    <!-- Location and storage permission -->
+    <string name="warning_location_storage_permission">Please allow the application to access location and storage for storing your trip recordings.</string>
+    <!-- Red "Rec." text under start button -->
+    <string name="text_recording">Recording data...</string>
+    <string name="warning_location_background_permission">Please set the location permission to \"Allow all the time\".</string>
+
+
+    <!-- ### FragmentPage1.xml ###-->
+    <string name="comment_txtbox_label">Comment:</string>
+    <string name="press_start_txt">Press START before driving</string>
+    <string name="bicycle">Bicycle</string>
+    <string name="motorcycle">Motorcycle</string>
+    <string name="car">Car</string>
+    <string name="location">Location</string>
+    <string name="warning_location_permission">Please allow the application to access your location. The location data is used for the road defect detection.</string>
+    <string name="warning_gps_off">The application requires GPS data recording for the road defect detection system. Please turn your GPS on when using this application.</string>
+
+    <!--- ### FragmentPage3.xml ### -->
+    <string name="txt_upload_only_wifi">Upload only while connected to wifi</string>
+    <string name="txt_reduce_size">Reduce Data Size</string>
+
+    <!-- ### FragmentPage3.java ### -->
+    <string name="warning_file_cant_read">Cannot read file(s). The application has not been granted permission to access the system storage.</string>
+    <string name="warning_storage_permission">Please allow the application to access the system storage to be able to read and write report files to the device.</string>
+    <string name="toast_no_connection">No internet connection</string>
+    <string name="toast_no_file">No file to be found</string>
+    <string name="toast_uploading_file">Uploading file %1$d of %2$d...\n\nFiles that have been successfully uploaded will be immediately deleted from the device.</string>
+    <string name="toast_no_wifi_connection">Please connect to a wifi network.</string>
+    <string name="txt_file_path">Files are stored in folder:\n- %1$s\n- %2$s</string>
+    <string name="txt_record_count">There are %1$d trip record(s) and %2$d photo(s) to be uploaded.</string>
+
+    <!-- ### CameraFragment ###-->
+    <string name="take_picture">Take Picture</string>
+    <string name="start_capture">Start Capture</string>
+    <string name="stop_capture">Stop Capture</string>
+    <string name="report_list">Report List</string>
+    <string name="upload">Upload</string>
+    <string name="txt_upload_finished">Upload finished.</string>
+    <string name="show_images">Open Photo Folder</string>
+    <string name="show_csv">Open Report Folder</string>
+    <string name="button_refresh_list">Reload List</string>
+    <string name="file_location">File Location</string>
+    <string name="toast_upload_fail">Failed to upload %1$d file(s). Please try again.</string>
+    <string name="delete">Delete all files</string>
+    <string name="toast_reduce_data_finish">Reduce Data finished.</string>
+</resources>

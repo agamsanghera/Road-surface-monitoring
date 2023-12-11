@@ -1,0 +1,76 @@
+<resources>
+    <!-- Localization files
+         This contains all the strings in this app in Indonesian.
+         Please check res/values/strings.xml for English strings, and make sure that both Indonesian
+         and English counterparts of each string exist.
+    -->
+
+    <!-- App name and tab titles -->
+    <string name="app_name">Lapor Jalan</string>
+    <string name="tab_text_1">Rekam</string>
+    <string name="tab_text_2">Peta</string>
+    <string name="tab_text_3">Upload</string>
+    <string name="tab_text_4">Camera</string>
+
+    <!-- Dialogue and other buttons -->
+    <string name="dialogue_cancel">Batalkan</string>
+    <string name="dialogue_settings">Buka Setelan</string>
+    <string name="button_start">MULAI</string>
+    <string name="button_stop">STOP</string>
+
+    <!-- Titles for dialogue windows -->
+    <string name="warning_title">Peringatan</string> <!-- Warning -->
+
+
+    <!-- ### FragmentPage1.java ### -->
+
+    <!-- First location warning when booting up the app -->
+    <string name="warning_first_boot">"Saat tombol start ditekan dan logo bendera di bagian notofikasi menyala, aplikasi ini mengambil data lokasi pengguna untuk dapat menyimpan lokasi jalan rusak dengan akurat, meskipun aplikasi ini tidak digunakan.\n\nTekan tombol stop jika ingin berhenti.\n    "</string>
+
+    <!-- Location and storage permission -->
+    <string name="warning_location_storage_permission">"Ijinkan aplikasi untuk mengakses lokasi dan media penyimpanan untuk dapat menyimpan laporan perjalanan.\n    "</string>
+
+    <!-- Red "Rec." text under start button -->
+    <string name="text_recording">Merekam data...</string>
+    <string name="warning_location_background_permission">Mohon atur izin lokasi aplikasi ke \"Izinkan sepanjang waktu\".</string>
+
+
+    <!-- ### FragmentPage1.xml ###-->
+    <string name="comment_txtbox_label">Komentar:</string>
+    <string name="press_start_txt">Tekan MULAI sebelum berkendara</string>
+    <string name="bicycle">Sepeda</string>
+    <string name="motorcycle">Motor</string>
+    <string name="car">Mobil</string>
+    <string name="location">Lokasi</string>
+    <string name="warning_location_permission">Ijinkan aplikasi untuk mengakses lokasi perangkat. Sistem ini menggunakan lokasi data untuk dapat mendeteksi jalan rusak.</string>
+    <string name="warning_gps_off">Aplikasi ini merekam data lokasi agar dapat mendeteksi jalan rusak. Mohon nyalakan GPS setiap kali menggunakan aplikasi ini.</string>
+
+    <!--- ### FragmentPage3.xml ### -->
+    <string name="txt_upload_only_wifi">Upload hanya saat terhubung ke wifi</string>
+    <string name="txt_reduce_size">Kurangi Ukuran Data</string>
+    <string name="txt_record_count">Terdapat %1$d rekaman perjalanan dan %2$d foto untuk diupload.</string>
+    <string name="txt_file_path">File disimpan di dalam folder:\n- %1$s\n- %2s.</string>
+
+    <!-- ### FragmentPage3.java ### -->
+    <string name="warning_file_cant_read">Tidak bisa membaca file. Akses ke media penyimpanan belum diijinkan pengguna.</string>
+    <string name="warning_storage_permission">Ijinkan aplikasi untuk mengakses media penyimpanan untuk dapat membaca dan menulis file laporan.</string>
+    <string name="toast_no_connection">Tidak terhubung dengan jaringan internet</string>
+    <string name="toast_no_file">Tidak ada file yang ditemukan</string>
+    <string name="toast_uploading_file">Mengupload file %1$d dari total %2$d file...\n\nFile yang sudah berhasil diupload akan langsung dihapus dari perangkat.</string>
+    <string name="toast_no_wifi_connection">Mohon hubungkan perangkat ke jaringan wifi.</string>
+
+    <!-- ### CameraFragment ###-->
+    <string name="take_picture">Ambil Foto</string>
+    <string name="start_capture">Mulai Rekaman</string>
+    <string name="stop_capture">Stop Rekaman</string>
+    <string name="report_list">List Laporan</string>
+    <string name="upload">Upload</string>
+    <string name="txt_upload_finished">"Upload selesai."</string>
+    <string name="show_images">Buka Folder Foto</string>
+    <string name="show_csv">Buka Folder Laporan</string>
+    <string name="button_refresh_list">Reload List</string>
+    <string name="file_location">Lokasi File</string>
+    <string name="toast_upload_fail">Gagal mengupload %1$d file. Mohon dicoba lagi.</string>
+    <string name="delete">Hapus semua file</string>
+    <string name="toast_reduce_data_finish">Reduce Data selesai.</string>
+</resources>
