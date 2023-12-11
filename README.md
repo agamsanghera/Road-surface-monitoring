@@ -6,7 +6,7 @@ Android app for collecting data of road defects.
 
 | Home  | Upload   | Map    | Camera  |
 | ------------ | ------------ | ------------ | -------------- |
-| ![Home](AppPreview2.png) | ![Upload](AppPreview1.png) | ![Map](AppPreview3.png) | ![Camera](AppPreview5.png) |
+| ![Home](Pics/AppPreview2.png) | ![Upload](Pics/AppPreview1.png) | ![Map](Pics/AppPreview3.png) | ![Camera](Pics/AppPreview5.png) |
 
 ## Building the application
 ### Step 1
