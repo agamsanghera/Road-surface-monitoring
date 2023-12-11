@@ -13,7 +13,7 @@ Android app for collecting data of road defects.
 Download the file from either the website as a zip or using the following command in the command line interface
 
 ```
-git clone https://github.com/agamsanghera/Android-road-surface-monitoring.git
+git clone https://github.com/agamsanghera/Road-surface-monitoring.git
 ```
 
 ### Step 2
