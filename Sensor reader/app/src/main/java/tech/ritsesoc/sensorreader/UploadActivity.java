@@ -235,7 +235,7 @@ public class UploadActivity extends AppCompatActivity {
     public void accountInit() {
         client = new Client(UploadActivity.this)
                 .setEndpoint("https://cloud.appwrite.io/v1")
-                .setProject("649e4878f314f1ac7df4");
+                .setProject(String.valueOf(R.string.Appwrite_Token));
 
         account = new Account(client);
 
